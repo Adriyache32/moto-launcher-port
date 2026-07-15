@@ -4,25 +4,26 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Android-12%2B-red?style=for-the-badge&logo=android">
+  <img src="https://img.shields.io/badge/Google%20Play-green?style=for-the-badge&logo=googleplay">
   <img src="https://img.shields.io/badge/Version-14-yellow?style=for-the-badge">
   <img src="https://img.shields.io/badge/Tama%C3%B1o-39MB-orange?style=for-the-badge">
   <img src="https://img.shields.io/badge/license-Propiedad-lightgrey?style=for-the-badge">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/APK-portado-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/APK-oficial-brightgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/PRs-welcome-ff69b4?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/Adriyache32/moto-launcher-port?style=for-the-badge&logo=github">
 </p>
 
-Launcher extraído directamente del sistema (Launcher3QuickStep) y portado para uso libre.
+Launcher oficial de **Google Play** (versión 14). Extraído y portado para uso libre.
 
 ## Información
 
 | Campo | Valor |
 |-------|-------|
 | **Paquete** | `com.motorola.launcher3` |
-| **Origen** | `/system_ext/priv-app/Launcher3QuickStep/Launcher3QuickStep.apk` |
+| **Origen** | Google Play Store (luego extraído del sistema) |
 | **Tamaño** | ~39 MB |
 | **Versión** | 14 (API 34) |
 | **Compatibilidad** | Android 12+ |

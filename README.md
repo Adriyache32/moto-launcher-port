@@ -1,8 +1,23 @@
-# Moto Launcher 3 Port
+<p align="center">
+  <img src="https://img.shields.io/badge/Moto%20Launcher%203-26.1.2-blue?style=for-the-badge&logo=android">
+</p>
 
-APK extraído directamente de un dispositivo Motorola (Launcher3QuickStep).
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-12%2B-red?style=for-the-badge&logo=android">
+  <img src="https://img.shields.io/badge/Motorola-grey?style=for-the-badge&logo=motorola">
+  <img src="https://img.shields.io/badge/Tama%C3%B1o-39MB-yellow?style=for-the-badge">
+  <img src="https://img.shields.io/badge/license-Propiedad%20Motorola-lightgrey?style=for-the-badge">
+</p>
 
-## 📋 Información
+<p align="center">
+  <img src="https://img.shields.io/badge/APK-portado-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PRs-welcome-ff69b4?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/Adriyache32/moto-launcher-port?style=for-the-badge&logo=github">
+</p>
+
+Launcher de Motorola extraído directamente del sistema (Launcher3QuickStep) y portado para uso libre.
+
+## Información
 
 | Campo | Valor |
 |-------|-------|
@@ -12,41 +27,38 @@ APK extraído directamente de un dispositivo Motorola (Launcher3QuickStep).
 | **Versión** | 26.1.2 |
 | **Compatibilidad** | Android 12+ |
 
-## 🚀 Instalación
+## Instalar
 
-### Método 1: ADB
 ```bash
 adb install MotoLauncher3.apk
 ```
 
-### Método 2: Manual
-1. Copia el APK al teléfono
-2. Ábrelo desde el explorador de archivos
-3. Activa "Fuentes desconocidas" si es necesario
-4. Instala
+| Método | Comando |
+|--------|---------|
+| ADB | `adb install MotoLauncher3.apk` |
+| Manual | Copiar APK al teléfono e instalar desde el explorador |
 
-### Configurar como launcher predeterminado
-- **Ajustes > Aplicaciones > Launcher predeterminado > Moto Launcher**
+## Como usar
 
-## ⚠️ Notas importantes
+1. Instala el APK
+2. Ve a **Ajustes > Aplicaciones > Launcher predeterminado**
+3. Selecciona **Moto Launcher**
+4. Listo
 
-- Es un **launcher de sistema** (`priv-app`), requiere permisos de sistema
-- Para reemplazar el launcher por defecto necesitas acceso root o desactivar el launcher original
-- Funciona en la mayoría de dispositivos Android 12+
-- En algunos dispositivos puede requerir desactivar el launcher de stock primero
+| Acción | Resultado |
+|--------|-----------|
+| Instalar | Reemplaza el launcher actual |
+| Configurar | Ajustes > Launcher predeterminado |
+| Desinstalar | `adb uninstall com.motorola.launcher3` |
 
-## 📁 Contenido del repositorio
+## Notas
 
-```
-moto-launcher-port/
-├── MotoLauncher3.apk    # El launcher extraído (39MB)
-└── README.md            # Este archivo
-```
+- Es un **launcher de sistema** (`priv-app`), requiere permisos elevados
+- En algunos dispositivos necesitas root para reemplazar el launcher de stock
+- Funciona en la mayoría de Android 12+
 
-## ⚖️ Disclaimer
+## Disclaimer
 
-Este APK es propiedad de **Motorola Mobility LLC**. Se distribuye únicamente con fines educativos y de investigación. Todos los derechos pertenecen a Motorola. El autor no se hace responsable por el mal uso o daños causados.
+Este APK es propiedad de **Motorola Mobility LLC**. Se distribuye únicamente con fines educativos. Todos los derechos pertenecen a Motorola.
 
-## 📜 Licencia
-
-Uso educativo solamente. No redistribuir con fines comerciales.
+Repo: https://github.com/Adriyache32/moto-launcher-port

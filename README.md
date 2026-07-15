@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Mojo%20Launcher-Android-blue?style=for-the-badge&logo=android">
+  <img src="https://img.shields.io/badge/Mojo%20Launcher-v14-blue?style=for-the-badge&logo=android">
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Android-12%2B-red?style=for-the-badge&logo=android">
-  <img src="https://img.shields.io/badge/Versiones-8.0%20a%2015-yellow?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-14-yellow?style=for-the-badge">
   <img src="https://img.shields.io/badge/Tama%C3%B1o-39MB-orange?style=for-the-badge">
   <img src="https://img.shields.io/badge/license-Propiedad-lightgrey?style=for-the-badge">
 </p>
@@ -24,7 +24,7 @@ Launcher extraído directamente del sistema (Launcher3QuickStep) y portado para 
 | **Paquete** | `com.motorola.launcher3` |
 | **Origen** | `/system_ext/priv-app/Launcher3QuickStep/Launcher3QuickStep.apk` |
 | **Tamaño** | ~39 MB |
-| **Versiones** | Android 8.0 (Oreo) → Android 15 |
+| **Versión** | 14 (API 34) |
 | **Compatibilidad** | Android 12+ |
 
 ## Instalar
